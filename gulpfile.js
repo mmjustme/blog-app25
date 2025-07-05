@@ -22,7 +22,9 @@
             open: false
         });
         gulp.watch(paths.scss.assets, styles);
-        gulp.watch(paths.php).on('change', browserSync.reload); // оновлення при зміні PHP
+        // gulp.watch(paths.php).on('change', browserSync.reload); // оновлення при зміні PHP
+        gulp.watch(['**/*.php', '**/*.html', '**/*.js']).on('change', browserSync.reload);
+
     }
 
     gulp.task('default', gulp.series(styles, watch));
