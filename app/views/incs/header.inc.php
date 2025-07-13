@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-    <title>BLOG-APP</title>
+    <title><?= $title ?? "TITLE" ?></title>
 </head>
 <body>
 
@@ -18,9 +18,9 @@
 <header class="header">
     <nav class="nav">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="/public">Home</a></li>
+            <li><a href="/public/about.php">About</a></li>
+            <!--            <li><a href="#">Contacts</a></li>-->
         </ul>
     </nav>
 </header>

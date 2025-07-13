@@ -1,5 +1,6 @@
 <?php
-require_once 'config/paths.php';
+
+require_once  dirname(__DIR__) . '/config/paths.php';
 
 $posts = [
     1 => [
@@ -49,7 +50,7 @@ $res_posts = [
 
 ];
 
-require_once VIEWS . "/index.php";
+require_once VIEWS . "/index.tpl.php";
 
 
 

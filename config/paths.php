@@ -1,11 +1,13 @@
 <?php
 
-//"/home/justme/Documents/Projects/blog-app"
+# "/home/justme/Documents/Projects/blog-app"
 define("ROOT", dirname(__DIR__));
 
-define("APP", ROOT . "/app");
+const APP = ROOT . "/app";
+const CONFIG = ROOT . "/config";
+const VIEWS = APP . "/views";
+const INCS = VIEWS . "/incs";
 
-define("VIEWS", APP . "/views");
-define("VIEWS_INC", VIEWS . "/inc");
 
-//var_dump(VIEWS);
+const CONTROLLERS = APP . "/controllers";
+//var_dump(CONTROLLERS);
