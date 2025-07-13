@@ -3,7 +3,8 @@
 <div class="container">
     <main class="main">
         <div class="main-content">
-            <?php foreach ($posts as $post): ?>
+
+            <?php dump($posts); foreach ($posts as $post): ?>
                 <article class="card">
                     <h3 class="card-title">
                         <a href="post/<?= $post['slug'] ?>"><?= $post['title'] ?></a>

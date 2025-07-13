@@ -1,7 +1,10 @@
 <?php
 
 require_once  dirname(__DIR__) . '/config/paths.php';
+require_once CORE . "/helper.php";
 
+
+$title = "BLOG  HOME";
 $posts = [
     1 => [
         'title' => 'Title 1',
@@ -24,7 +27,6 @@ $posts = [
         'slug' => 'title-4',
     ],
 ];
-
 $res_posts = [
     1 => [
         'title' => 'An item',
