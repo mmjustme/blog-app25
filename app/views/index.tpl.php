@@ -4,7 +4,7 @@
     <main class="main">
         <div class="main-content">
 
-            <?php dump($posts); foreach ($posts as $post): ?>
+            <?php foreach ($posts as $post): ?>
                 <article class="card">
                     <h3 class="card-title">
                         <a href="post/<?= $post['slug'] ?>"><?= $post['title'] ?></a>
