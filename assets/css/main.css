@@ -19,7 +19,8 @@ a {
 
 body, html {
   height: 100vh;
-  color: #233142;
+  color: #626685;
+  background: #f0f0f0;
 }
 
 body {
@@ -39,5 +40,5 @@ body {
   flex-direction: column;
 }
 .container .main {
-  flex: 1 1 auto;
+  flex: 1;
 }
