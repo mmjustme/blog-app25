@@ -1,7 +1,7 @@
 <?php
 
-require_once __DIR__ . '/../../config/paths.php';
-require_once CORE . "/helper.php";
+//require_once __DIR__ . '/../../config/paths.php';
+//require_once CORE . "/helper.php";
 
 $title = "BLOG  HOME";
 $posts = [
@@ -26,6 +26,7 @@ $posts = [
         'slug' => 'title-4',
     ],
 ];
+//dd($posts);
 $res_posts = [
     1 => [
         'title' => 'An item',

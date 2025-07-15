@@ -21,7 +21,7 @@
     <nav class="nav">
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/app/controllers/about.php">About</a></li>
+            <li><a href="../../controllers/about_ctrl.php">About</a></li>
             <!--            <li><a href="#">Contacts</a></li>-->
         </ul>
     </nav>
