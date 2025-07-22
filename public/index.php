@@ -15,8 +15,6 @@ switch ($uri) {
         require_once CONTROLLERS . "/about_ctrl.php";
         break;
     default:{
-        http_response_code(404);
-        require_once VIEWS . "/errors/error_404.php";
-        die;
+        abort();
     }
 }
