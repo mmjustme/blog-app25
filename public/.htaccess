@@ -4,3 +4,4 @@ RewriteEngine On
 # і нас перекине на index_ctrl.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule (.*) index.php?$1 [L,QSA]
+# QSA додає квері параметри і вони стають доступні через $_GET, $_SERVER[QUERY_STRING];
