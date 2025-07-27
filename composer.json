@@ -1,0 +1,17 @@
+{
+    "name": "justme/blog-app",
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "app/core/classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "justme"
+        }
+    ],
+    "require": {}
+}
