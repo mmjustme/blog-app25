@@ -40,13 +40,15 @@
 /*================================= MAIN =========================================*/
 .main {
     margin-top: 75px;
-    display: flex;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr;
 
     .main-content {
-        display: flex;
-        flex: 3;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
         flex-direction: column;
-        row-gap: 20px;
+        gap: 20px;
 
         .card {
             border-radius: 10px;
@@ -78,14 +80,13 @@
     }
 
     .main-sidebar {
-        flex: 1;
         position: relative;
-        display: flex;
         justify-content: center;
         text-align: center;
 
         .sidebar-group {
-            position: fixed;
+            position: sticky;
+            top: 70px;
 
             h3 {
                 font-size: 25px;

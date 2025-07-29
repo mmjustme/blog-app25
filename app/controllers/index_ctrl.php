@@ -25,6 +25,31 @@ $posts = [
         'desc' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         'slug' => 'title-4',
     ],
+    5 => [
+        'title' => 'Title 5',
+        'desc' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        'slug' => 'title-5',
+    ],
+    6 => [
+        'title' => 'Title 2',
+        'desc' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        'slug' => 'title-2',
+    ],
+    7 => [
+        'title' => 'Title 3',
+        'desc' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        'slug' => 'title-4',
+    ],
+    8 => [
+        'title' => 'Title 4',
+        'desc' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        'slug' => 'title-4',
+    ],
+    9 => [
+        'title' => 'Title 5',
+        'desc' => "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        'slug' => 'title-5',
+    ],
 ];
 //dd($posts);
 $res_posts = [
